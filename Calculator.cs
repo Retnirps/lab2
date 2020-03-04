@@ -56,7 +56,7 @@ namespace lab1
         /// <param name="number">number</param>
         /// <param name="degree">degree</param>
         /// <returns>number^degree</returns>
-        /* public static double Exponentiation(double number, int degree)
+        public static double Exponentiation(double number, int degree)
         {
             double temp = number;
 
@@ -68,7 +68,7 @@ namespace lab1
             return temp;
         }
 
-        /// <summary>
+        /* /// <summary>
         /// is palindrome?
         /// </summary>
         /// <param name="a">string</param>
@@ -79,9 +79,9 @@ namespace lab1
             Array.Reverse(arr);
 
             return new string(arr) == a ? true : false;
-        }
+        } */
 
-        /// <summary>
+        /* /// <summary>
         /// sum of rationals
         /// </summary>
         /// <param name="r1">first rational</param>
@@ -91,9 +91,9 @@ namespace lab1
         {
             Rational sum = r1 + r2;
             return sum;
-        }
+        } */
 
-        /// <summary>
+        /* /// <summary>
         /// simplify rational
         /// </summary>
         /// <param name="r">rational</param>
@@ -102,9 +102,9 @@ namespace lab1
         {
             r.Simplify();
             return r;
-        }
+        } */
 
-        /// <summary>
+        /* /// <summary>
         /// compare rationals
         /// </summary>
         /// <param name="r1">first rational</param>
