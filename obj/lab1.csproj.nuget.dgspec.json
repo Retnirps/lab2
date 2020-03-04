@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/majesta/Desktop/Sharp Projects/2/lab1/lab1.csproj": {}
+  },
+  "projects": {
+    "/home/majesta/Desktop/Sharp Projects/2/lab1/lab1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/majesta/Desktop/Sharp Projects/2/lab1/lab1.csproj",
+        "projectName": "lab1",
+        "projectPath": "/home/majesta/Desktop/Sharp Projects/2/lab1/lab1.csproj",
+        "packagesPath": "/home/majesta/.nuget/packages/",
+        "outputPath": "/home/majesta/Desktop/Sharp Projects/2/lab1/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/majesta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit.Console": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

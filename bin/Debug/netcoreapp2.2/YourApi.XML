@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lab1</name>
+    </assembly>
+    <members>
+        <member name="T:lab1.Calculator">
+            <summary>
+            Calculator class
+            </summary>
+        </member>
+        <member name="M:lab1.Calculator.SumOfTwo(System.Double,System.Double)">
+            <summary>
+            Sum of numbers
+            </summary>
+            <param name="a">first number</param>
+            <param name="b">second number</param>
+            <returns>sum</returns>
+        </member>
+        <member name="M:lab1.Calculator.MultiplyTwo(System.Double,System.Double)">
+            <summary>
+            multiplying of numbers
+            </summary>
+            <param name="a">first number</param>
+            <param name="b">second number</param>
+            <returns>multiply answer</returns>
+        </member>
+        <member name="M:lab1.Calculator.DifferenceOfTwo(System.Double,System.Double)">
+            <summary>
+            difference of two numbers
+            </summary>
+            <param name="a">first number</param>
+            <param name="b">second number</param>
+            <returns>difference</returns>
+        </member>
+        <member name="M:lab1.Calculator.Sqrt(System.Double)">
+            <summary>
+            sqrt
+            </summary>
+            <param name="a">number</param>
+            <returns>sqrt(number)</returns>
+        </member>
+        <member name="M:lab1.Calculator.Exponentiation(System.Double,System.Int32)">
+            <summary>
+            exponentiation
+            </summary>
+            <param name="number">number</param>
+            <param name="degree">degree</param>
+            <returns>number^degree</returns>
+        </member>
+        <member name="M:lab1.Calculator.IsPalindrome(System.String)">
+            <summary>
+            is palindrome?
+            </summary>
+            <param name="a">string</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:lab1.Calculator.SumOfRationals(lab1.Rational,lab1.Rational)">
+            <summary>
+            sum of rationals
+            </summary>
+            <param name="r1">first rational</param>
+            <param name="r2">second rational</param>
+            <returns>sum</returns>
+        </member>
+        <member name="M:lab1.Calculator.SimplifyRational(lab1.Rational)">
+            <summary>
+            simplify rational
+            </summary>
+            <param name="r">rational</param>
+            <returns>simplified rational</returns>
+        </member>
+        <member name="M:lab1.Calculator.CompareRationals(lab1.Rational,lab1.Rational)">
+            <summary>
+            compare rationals
+            </summary>
+            <param name="r1">first rational</param>
+            <param name="r2">second rational</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="T:lab1.Rational">
+            <summary>
+            Rational class
+            </summary>
+        </member>
+        <member name="M:lab1.Rational.#ctor(System.Double,System.Double)">
+            <summary>
+            constructor of Rational class
+            </summary>
+            <param name="n">numerator</param>
+            <param name="m">denominator</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:lab1.Rational.op_GreaterThan(lab1.Rational,lab1.Rational)" -->
+        <member name="M:lab1.Rational.op_LessThan(lab1.Rational,lab1.Rational)">
+            <summary>
+            compare two ratioanls with >
+            </summary>
+            <param name="r1">first rational</param>
+            <param name="r2">second rational</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:lab1.Rational.op_Equality(lab1.Rational,lab1.Rational)">
+            <summary>
+            equality of two rationals
+            </summary>
+            <param name="r1">first rational</param>
+            <param name="r2">second ratioal</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:lab1.Rational.op_Inequality(lab1.Rational,lab1.Rational)">
+            <summary>
+            inequality
+            </summary>
+            <param name="r1">first ratioanal</param>
+            <param name="r2">second rational</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:lab1.Rational.LCM(System.Int32,System.Int32)">
+            <summary>
+            Least Common Multiple method
+            </summary>
+            <param name="m1">first denominator</param>
+            <param name="m2">second denominator</param>
+            <returns>LCM number</returns>
+        </member>
+        <member name="M:lab1.Rational.GCD(System.Int32,System.Int32)">
+            <summary>
+            Greatest Common Divisor method
+            </summary>
+            <param name="n">first number</param>
+            <param name="m">second number</param>
+            <returns>GCD number</returns>
+        </member>
+        <member name="M:lab1.Rational.Simplify">
+            <summary>
+            Simplify a ratioanal
+            </summary>
+        </member>
+        <member name="M:lab1.Rational.op_Addition(lab1.Rational,lab1.Rational)">
+            <summary>
+            overload +
+            </summary>
+            <param name="r1">first rational</param>
+            <param name="r2">second rational</param>
+            <returns>sum</returns>
+        </member>
+        <member name="M:lab1.Rational.Show">
+            <summary>
+            Show rational
+            </summary>
+        </member>
+        <member name="M:lab1.Rational.ToString">
+            <summary>
+            overload ToString() method
+            </summary>
+            <returns>ToString() value</returns>
+        </member>
+        <member name="T:lab1.Tests">
+            <summary>
+            class of tests
+            </summary>
+        </member>
+        <member name="M:lab1.Tests.SumOfTwoTEST">
+            <summary>
+            Test of number's sum
+            </summary>
+        </member>
+        <member name="M:lab1.Tests.MultiplyTwoTEST">
+            <summary>
+            Test of multiplying numbers
+            </summary>
+        </member>
+        <member name="M:lab1.Tests.DifferenceOfTwoTEST">
+            <summary>
+            test of number's difference
+            </summary>
+        </member>
+        <member name="M:lab1.Tests.SqrtTEST">
+            <summary>
+            test of sqrt
+            </summary>
+        </member>
+        <member name="M:lab1.Tests.ExponentiationTEST">
+            <summary>
+            test of exponentiation
+            </summary>
+        </member>
+        <member name="M:lab1.Tests.IsPalindromeTEST">
+            <summary>
+            tets of palindrome
+            </summary>
+        </member>
+        <member name="M:lab1.Tests.SumOfRationalsTEST">
+            <summary>
+            test of rational's sum
+            </summary>
+        </member>
+        <member name="M:lab1.Tests.SimplifyTEST">
+            <summary>
+            test of rational's simplify
+            </summary>
+        </member>
+        <member name="M:lab1.Tests.CompareTEST">
+            <summary>
+            test of rationals' compare
+            </summary>
+        </member>
+    </members>
+</doc>
