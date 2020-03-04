@@ -66,7 +66,7 @@ namespace lab1
             }
 
             return temp;
-        }
+        }//
 
         /* /// <summary>
         /// is palindrome?
