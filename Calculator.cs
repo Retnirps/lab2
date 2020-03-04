@@ -56,7 +56,7 @@ namespace lab1
         /// <param name="number">number</param>
         /// <param name="degree">degree</param>
         /// <returns>number^degree</returns>
-        public static double Exponentiation(double number, int degree)
+        /* public static double Exponentiation(double number, int degree)
         {
             double temp = number;
 
@@ -122,6 +122,6 @@ namespace lab1
             }
 
             return false;
-        }
+        } */
     }
 }
