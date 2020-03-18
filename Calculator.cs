@@ -68,7 +68,7 @@ namespace lab1
             return temp;
         }
 
-        /// <summary>
+        /* /// <summary>
         /// is palindrome?
         /// </summary>
         /// <param name="a">string</param>
@@ -79,7 +79,7 @@ namespace lab1
             Array.Reverse(arr);
 
             return new string(arr) == a ? true : false;
-        }
+        } */
 
         /* /// <summary>
         /// sum of rationals
