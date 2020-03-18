@@ -81,7 +81,7 @@ namespace lab1
             return new string(arr) == a ? true : false;
         }
 
-        /* /// <summary>
+        /// <summary>
         /// sum of rationals
         /// </summary>
         /// <param name="r1">first rational</param>
@@ -91,7 +91,7 @@ namespace lab1
         {
             Rational sum = r1 + r2;
             return sum;
-        } */
+        }
 
         /* /// <summary>
         /// simplify rational
