@@ -93,7 +93,7 @@ namespace lab1
             return sum;
         }
 
-        /* /// <summary>
+        /// <summary>
         /// simplify rational
         /// </summary>
         /// <param name="r">rational</param>
@@ -102,7 +102,7 @@ namespace lab1
         {
             r.Simplify();
             return r;
-        } */
+        }
 
         /* /// <summary>
         /// compare rationals
