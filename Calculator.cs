@@ -104,7 +104,7 @@ namespace lab1
             return r;
         }
 
-        /* /// <summary>
+        /// <summary>
         /// compare rationals
         /// </summary>
         /// <param name="r1">first rational</param>
@@ -122,6 +122,6 @@ namespace lab1
             }
 
             return false;
-        } */
+        }
     }
 }
